@@ -7,7 +7,9 @@
     "build": "tsc",
     "start": "node dist/connectSlack.js",
     "dev": "ts-node-dev --respawn src/connectSlack.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
+
 
   },
   "dependencies": {
